@@ -432,7 +432,7 @@ private:
         // Get Configurations based on Interface Type
         if (this->interface_type_str == "serial") {
             this->interface_type = segwayrmp::serial;
-            n->param("serial_port", this->serial_port, std::string("/dev/ttyUSB0"));
+            n->param("serial_port", this->serial_port, std::string("/dev/segway_rmp"));
         } else if (this->interface_type_str == "usb") {
             this->interface_type = segwayrmp::usb;
             n->param("usb_selector", this->usb_selector, std::string("index"));
