@@ -7,7 +7,6 @@ find_package(catkin REQUIRED
     message_generation
     nav_msgs
     roscpp
-    serial
     std_msgs
     tf
 )
@@ -36,7 +35,6 @@ catkin_package(
     message_runtime
     nav_msgs
     roscpp
-    serial
     std_msgs
     tf
 )
